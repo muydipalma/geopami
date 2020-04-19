@@ -44,7 +44,7 @@ def main():
     df_data = load_data()
     #st.header('Campaña vacunacion 2020')
     #st.subheader('farmacias habilitadas')
-    st.image('image.png', width=600)
+    #st.image('image.png', width=600)
     if st.checkbox('Show'):
         st.write(df_data.head())
         st.write(df_data.shape)
